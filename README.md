@@ -129,8 +129,8 @@ Output in the terminal:
 ## 🧾 Credits
 
 Crafted by **Gurpinder** using Python and OpenCV 💡
-```
 
----
+
+
 
 
