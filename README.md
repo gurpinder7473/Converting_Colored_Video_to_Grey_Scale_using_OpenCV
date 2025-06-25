@@ -29,7 +29,7 @@ drive.mount('/content/drive')
 ## 🗂️ Folder Structure
 
 ```
-videos(b/w)/
+video/
 ├── input_video.mp4         # Original colored video
 └── output_grayscale.avi    # Grayscale output video
 assets/
