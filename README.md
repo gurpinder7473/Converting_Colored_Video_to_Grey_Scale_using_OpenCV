@@ -1,16 +1,11 @@
 ###Converting_Colored_Video_to_Grey_Scale_using_OpenCV
 
 
-You got it, Gurpinder! Here's your fully combined `README.md` with everything—code explanation, visuals, and usage instructions—all in one place, ready to paste directly into your GitHub repo.
-
----
-
-```markdown
 # 🎬 Converting Colored Video to Grayscale Using OpenCV
 
 This project demonstrates how to convert a colored video into grayscale using **OpenCV** in Python. It's perfect for preprocessing in computer vision, reducing file size, or achieving a classic black-and-white aesthetic.
 
-![Before and After Preview](https://github.com/your-username/your-repo/blob/main/assets/preview.gif?raw=true)
+
 
 ---
 
@@ -138,4 +133,4 @@ Crafted by **Gurpinder** using Python and OpenCV 💡
 
 ---
 
-You can now paste this straight into your GitHub project's `README.md`, swap in the real GIF URLs, and you’re good to go. Want help automating GIF creation from frames, or generating those preview files too? I’ve got your back!
+
