@@ -52,17 +52,6 @@ Each frame is converted using `cv2.COLOR_BGR2GRAY`.
 ### 🔹 Step 4: Save Output  
 Writes the grayscale frames to a new video using `cv2.VideoWriter()`.
 
----
-
-## 📸 Visual Demo
-
-### 🟥 Original Color Frame  
-![Color Frame](https://github.com/your-username/your-repo/blob/main/assets/color_frame.gif?raw=true)
-
-### ⬛ Grayscale Frame  
-![Grayscale Frame](https://github.com/your-username/your-repo/blob/main/assets/grayscale_frame.gif?raw=true)
-
----
 
 ## 🧪 Usage
 
