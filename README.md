@@ -81,12 +81,12 @@ from pathlib import Path
 def convert_video_to_grayscale(input_video_path, output_video_path):
     input_path = Path(input_video_path)
     if not input_path.is_file():
-        print("❌ Error: Input video file not found.")
+        print(" Error: Input video file not found.")
         return
 
     cap = cv2.VideoCapture(str(input_path))
     if not cap.isOpened():
-        print("❌ Failed to open the video.")
+        print(" Failed to open the video.")
         return
 
     width  = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
@@ -96,7 +96,7 @@ def convert_video_to_grayscale(input_video_path, output_video_path):
 
     out = cv2.VideoWriter(str(output_video_path), codec, fps, (width, height), isColor=False)
 
-    print(f"🎞️ Converting video to grayscale...\nInput: {input_video_path}\nOutput: {output_video_path}")
+    print(f" Converting video to grayscale...\nInput: {input_video_path}\nOutput: {output_video_path}")
 
     while True:
         ret, frame = cap.read()
@@ -107,11 +107,11 @@ def convert_video_to_grayscale(input_video_path, output_video_path):
 
     cap.release()
     out.release()
-    print("✅ Conversion complete! Grayscale video saved successfully.")
+    print("Conversion complete! Grayscale video saved successfully.")
 
 # Run It
 if __name__ == "__main__":
-    print("🎬 Grayscale Video Converter")
+    print(" Grayscale Video Converter")
     input_video = "/content/drive/MyDrive/videos(b/w)/input_video.mp4"
     output_video = "/content/drive/MyDrive/videos(b/w)/output_grayscale.avi"
     convert_video_to_grayscale(input_video, output_video)
